@@ -1,7 +1,7 @@
-#ifndef HTTPRequest_h
-#define HTTPRequest_h
+#ifndef HTTPREQUEST_H
+#define HTTPREQUEST_H
 
-#include "../data_structures/dictionary/dictionary.h"
+#include "../data_structures/dictionary.h"
 
 struct HTTPRequest {
     struct Dictionary request_line;

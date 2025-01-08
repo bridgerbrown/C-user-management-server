@@ -1,8 +1,8 @@
-#ifndef Dictionary_h
-#define Dictionary_h
+#ifndef DICTIONARY_H
+#define DICTIONARY_H
 
-#include "../trees/binary_search_tree.h"
-#include "../lists/linked_list.h"
+#include "binary_search_tree.h"
+#include "linked_list.h"
 
 struct Dictionary {
 		struct BinarySearchTree binary_search_tree;

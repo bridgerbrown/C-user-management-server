@@ -1,5 +1,5 @@
 #include "http_request.h"
-#include "../data_structures/lists/queue.h"
+#include "../data_structures/queue.h"
 
 #include <string.h>
 #include <stdlib.h>
@@ -42,7 +42,7 @@ void http_request_destructor(struct HTTPRequest *request) {
 void extract_request_line_fields(struct HTTPRequest *request, char *request_line) {
 	// copy string literal
 	char fields[strlen(request_line) + 1];
-    strcpy(fields, request_line);
+	strcpy(fields, request_line);
 
 	// separate string on spaces for each section
 	char *method = strtok(fields, " ");

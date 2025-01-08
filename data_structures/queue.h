@@ -1,5 +1,5 @@
-#ifndef Queue_h
-#define Queue_h
+#ifndef QUEUE_H
+#define QUEUE_H
 
 #include "linked_list.h"
 

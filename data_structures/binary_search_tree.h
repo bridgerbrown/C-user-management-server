@@ -1,7 +1,7 @@
-#ifndef BinarySearchTree_h
-#define BinarySearchTree_h
+#ifndef BINARYSEARCHTREE_H
+#define BINARYSEARCHTREE_H
 
-#include "../node.c"
+#include "node.c"
 
 struct BinarySearchTree {
 		struct Node *head;	

@@ -1,5 +1,5 @@
-#ifndef Node_h
-#define Node_h
+#ifndef NODE_H
+#define NODE_H
 
 struct Node {
     void *data;

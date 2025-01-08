@@ -1,7 +1,7 @@
-#ifndef LinkedList_h
-#define LinkedList_h
+#ifndef LINKEDLIST_H
+#define LINKEDLIST_H
 
-#include "../node.h"
+#include "node.h"
 
 struct LinkedList {
     struct Node *head;

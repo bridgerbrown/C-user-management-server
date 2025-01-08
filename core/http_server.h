@@ -1,7 +1,7 @@
 #ifndef HTTP_SERVER_H
 #define HTTP_SERVER_H
 
-#include "../data_structures/dictionary/dictionary.c"
+#include "../data_structures/dictionary.c"
 #include "http_request.h"
 
 #include <sys/socket.h>
